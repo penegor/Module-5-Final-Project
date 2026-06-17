@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 5 Final Project</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/2737179694.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="landing">
+      <nav>
+        <img src="assets/film-logo.png" alt="" class="logo" />
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a href="#" class="nav__link--anchor nav__link--hover-effect"
+              >Home</a
+            >
+          </li>
+          <li class="nav__link">
+            <a href="#" class="nav__link--anchor nav__link--hover-effect"
+              >Movies</a
+            >
+          </li>
+          <li class="nav__link">
+            <a href="#movies" class="nav__link--anchor nav__link--hover-effect"
+              >Browse</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <header>
+        <div class="container">
+          <div class="row">
+            <h1 class="header__title">Search Movies</h1>
+            <div class="input__wrapper">
+              <input id="search-input" type="text" placeholder="Search Movies by Title" />
+              <div id="search-button" class="search__wrapper" role="button" aria-label="Search movies">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+    <section id="movies">
+      <div class="container">
+        <div class="row">
+          <ul class="movies__list">
+            <li class="movie">
+              <div class="movie__img--wrapper">
+                <img
+                  src=""
+                  alt=""
+                  class="movie__img"
+                />
+              </div>
+              <p class="movie__title"></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer__row">
+          <a href="#">
+            <img class="footer__logo" src="assets/film-logo.png" alt="" />
+          </a>
+          <p class="footer__tag">Copyright © 2026 Film+</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
